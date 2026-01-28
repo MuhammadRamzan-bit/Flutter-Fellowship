@@ -1,0 +1,5 @@
+to create first app first give flutter sdk path
+$env:PATH += ";C:\flutter\bin"
+
+then type command to create flutter project
+flutter create demo_app (app name) 
