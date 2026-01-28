@@ -3,3 +3,6 @@ $env:PATH += ";C:\flutter\bin"
 
 then type command to create flutter project
 flutter create demo_app (app name) 
+
+if you want to add any external device (like phone) also give android sdk path
+$env:PATH += ";C:\Android\Sdk\platform-tools"
