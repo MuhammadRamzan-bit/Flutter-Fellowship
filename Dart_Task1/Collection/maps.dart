@@ -1,6 +1,4 @@
 //map will store data in key:value pair , key always be unique
-import 'dart:isolate';
-
 void main(){
   Map<String, String> capitalcity = { 
     "pakistan": "islamabad",
