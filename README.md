@@ -78,3 +78,11 @@ Follow the steps below to run the Dart files:
 
 ```bash
 dart filename.dart
+
+### Example
+```bash
+dart variable.dart
+
+## Conclusion
+Completing this task helped me build a strong foundation in Dart programming concepts and understand how to organize projects in a professional way.
+It also improved my understanding of GitHub usage, clean folder structure, and writing proper documentation, which are essential skills for real-world software development.
