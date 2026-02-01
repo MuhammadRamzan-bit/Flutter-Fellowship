@@ -77,11 +77,17 @@ Follow the steps below to run the Dart files:
 3. Run the required Dart file using the command:
 
 ```bash
-dart filename.dart
+dart run filename.dart
+```
+---
 
 ### Example
 ```bash
-dart variable.dart
+dart run variable.dart
+```
+
+---
+
 
 ## Conclusion
 Completing this task helped me build a strong foundation in Dart programming concepts and understand how to organize projects in a professional way.
