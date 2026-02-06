@@ -6,3 +6,6 @@ flutter create demo_app (app name)
 
 if you want to add any external device (like phone) also give android sdk path
 $env:PATH += ";C:\Android\Sdk\platform-tools"
+
+for run app through command
+flutter run -d device name
