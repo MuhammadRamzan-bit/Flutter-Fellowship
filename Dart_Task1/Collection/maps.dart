@@ -10,10 +10,10 @@ void main(){
   print(capitalcity.containsValue("paris")); //check by value
   // capitalcity.addEntries("iran":"tehran");
   capitalcity.putIfAbsent('iran', () => 'tehran');
-  for(var city in capitalcity.keys){ //it just give give key
+  for(var city in capitalcity.keys){ //it just give key
     print(city);
   }
-  for(var city in capitalcity.values){ //it just give give key
+  for(var city in capitalcity.values){ //it just give value
     print(city);
   }
   for(var city in capitalcity.entries){ //it give both value and key
