@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
     final String name = "Ramzan";
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.purpleAccent,
+        backgroundColor: const Color.fromARGB(255, 84, 182, 247),
         title: Text("myApp"),
       ),
       body: Center(
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
               padding: EdgeInsets.all(8),
               alignment: Alignment.center,
               decoration: BoxDecoration(
-                color: const Color.fromARGB(255, 212, 130, 226),
+                color: const Color.fromARGB(255, 84, 182, 247),
                 borderRadius: BorderRadius.circular(20),
                 boxShadow: [
                   BoxShadow(
@@ -43,7 +43,7 @@ class HomePage extends StatelessWidget {
                       fontSize: 20,
                       color: const Color.fromARGB(255, 0, 0, 0),
                       fontWeight: FontWeight.bold,
-                      backgroundColor: const Color.fromARGB(255, 142, 223, 35),
+                      backgroundColor: const Color.fromARGB(255, 135, 248, 252),
                     ),
                   ),
                   SizedBox(height: 10),
@@ -54,7 +54,72 @@ class HomePage extends StatelessWidget {
                       fontSize: 20,
                       color: const Color.fromARGB(255, 0, 0, 0),
                       fontWeight: FontWeight.bold,
-                      backgroundColor: const Color.fromARGB(255, 142, 223, 35),
+                      backgroundColor: const Color.fromARGB(255, 135, 248, 252),
+                    ),
+                  ),
+                ],
+              ),
+            ),
+            Container(
+              width: 300,
+              height: 80,
+              margin: EdgeInsets.all(20),
+              padding: EdgeInsets.all(8),
+              alignment: Alignment.center,
+              decoration: BoxDecoration(
+                color: const Color.fromARGB(255, 84, 182, 247),
+                borderRadius: BorderRadius.circular(20),
+                boxShadow: [
+                  BoxShadow(
+                    color: const Color.fromARGB(255, 71, 24, 60),
+                    blurRadius: 10,
+                    spreadRadius: 2,
+                  ),
+                ],
+              ),
+              child: Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                //crossAxisAlignment: CrossAxisAlignment.center,
+                children: [
+                  Text(
+                    "box1",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: const Color.fromARGB(255, 0, 0, 0),
+                      fontWeight: FontWeight.bold,
+                      backgroundColor: const Color.fromARGB(255, 135, 248, 252),
+                    ),
+                  ),
+                  
+                  Text(
+                    "box2",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: const Color.fromARGB(255, 0, 0, 0),
+                      fontWeight: FontWeight.bold,
+                      backgroundColor: const Color.fromARGB(255, 135, 248, 252),
+                    ),
+                  ),
+                  Text(
+                    "box3",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: const Color.fromARGB(255, 0, 0, 0),
+                      fontWeight: FontWeight.bold,
+                      backgroundColor: const Color.fromARGB(255, 135, 248, 252),
+                    ),
+                  ),
+                  Text(
+                    "box4",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 20,
+                      color: const Color.fromARGB(255, 0, 0, 0),
+                      fontWeight: FontWeight.bold,
+                      backgroundColor: const Color.fromARGB(255, 135, 248, 252),
                     ),
                   ),
                 ],
