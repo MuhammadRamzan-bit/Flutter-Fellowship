@@ -10,7 +10,7 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color.fromARGB(255, 84, 182, 247),
-        title: Text("myApp"),
+        title: Text("MyApp"),
       ),
       body: Center(
         child: Column(
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
                       backgroundColor: const Color.fromARGB(255, 135, 248, 252),
                     ),
                   ),
-                  
+
                   Text(
                     "box2",
                     textAlign: TextAlign.center,
