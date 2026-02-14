@@ -41,11 +41,17 @@ class ProfileCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[200], // Halka background taake card wazeh nazar aaye
+      backgroundColor:
+          Colors.grey[200], // Halka background taake card wazeh nazar aaye
       appBar: AppBar(
         backgroundColor: Colors.purple,
-        title: const Text("Profile Card", 
-        style: TextStyle(fontWeight: FontWeight.bold, color: Colors.white, fontSize: 24)
+        title: const Text(
+          "Profile Card",
+          style: TextStyle(
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+            fontSize: 24,
+          ),
         ),
         centerTitle: true,
       ),
@@ -62,7 +68,7 @@ class ProfileCard extends StatelessWidget {
                 color: const Color.fromARGB(197, 209, 161, 218),
                 blurRadius: 20,
                 spreadRadius: 5,
-              )
+              ),
             ],
           ),
           child: Column(
@@ -72,10 +78,10 @@ class ProfileCard extends StatelessWidget {
               CircleAvatar(
                 radius: 80,
                 backgroundColor: Colors.purpleAccent,
-                backgroundImage: AssetImage('assets/images/profile.jpeg')
-                //hild: Icon(Icons.person, size: 50, color: Colors.white),
+                backgroundImage: AssetImage('assets/images/profile.jpeg'),
+                //child: Icon(Icons.person, size: 50, color: Colors.white),
               ),
-              
+
               const SizedBox(height: 20),
 
               // 2. Name and Title
@@ -85,7 +91,11 @@ class ProfileCard extends StatelessWidget {
               ),
               const Text(
                 "Flutter Developer",
-                style: TextStyle(fontSize: 16, color: Colors.grey, letterSpacing: 1.5),
+                style: TextStyle(
+                  fontSize: 16,
+                  color: Colors.grey,
+                  letterSpacing: 1.5,
+                ),
               ),
 
               const SizedBox(height: 30),
@@ -117,7 +127,10 @@ class ProfileCard extends StatelessWidget {
   Column _buildStatColumn(String label, String count) {
     return Column(
       children: [
-        Text(count, style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18)),
+        Text(
+          count,
+          style: const TextStyle(fontWeight: FontWeight.bold, fontSize: 18),
+        ),
         Text(label, style: const TextStyle(color: Colors.purple, fontSize: 12)),
       ],
     );
